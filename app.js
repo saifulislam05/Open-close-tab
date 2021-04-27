@@ -15,19 +15,7 @@ faqs.forEach(faqe => {
 
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// also it can be by this way .you can as your wish
 
 // faqs.forEach(faqe => {
 //     faqe.addEventListener('click', () => {
