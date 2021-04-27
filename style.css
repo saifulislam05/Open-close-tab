@@ -1,0 +1,42 @@
+body {
+    background-color: wheat;
+}
+
+.container {
+    width: 1100px;
+    height: auto;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.faq {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.faq h1 {
+    background-color: violet;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.faq p {
+    background-color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: none;
+    cursor: default;
+
+
+}
+
+
+.active p {
+    display: block !important;
+}
