@@ -7,14 +7,17 @@ body {
     height: auto;
     background-color: aliceblue;
     margin: auto;
+    box-sizing: border-box;
+
 }
 
 .faq {
     width: 100%;
     height: auto;
-    padding: 10px 0;
+    padding: 5px 0;
     background-color: whitesmoke;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .faq h1 {
@@ -23,6 +26,7 @@ body {
     margin: 0;
     padding: 0;
     cursor: pointer;
+
 }
 
 .faq p {
@@ -30,13 +34,27 @@ body {
     font-size: 20px;
     margin: 0;
     padding: 0;
-    display: none;
     cursor: default;
-
-
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    height: 0;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    transform-origin: top;
 }
 
 
 .active p {
-    display: block !important;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    height: initial;
 }
